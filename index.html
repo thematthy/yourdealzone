@@ -20,7 +20,7 @@ body, html {
 .caption {
   position: absolute;
   left: 0;
-  top: 50%;
+  top: 40%;
   width: 100%;
   text-align: center;
   font: 400 25px/1.8 "Lato", sans-serif;
@@ -37,6 +37,31 @@ hr {
   
   color:#777;
   margin: 10;
+}
+* {
+  box-sizing: border-box;
+}
+
+/* Create two unequal columns that floats next to each other */
+.column {
+  float: left;
+  padding: 10px;
+  height: 300px; /* Should be removed. Only for demonstration */
+}
+
+.left {
+  width: 66%;
+}
+
+.right {
+  width: 26%;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
 }
 </style>
 
@@ -61,8 +86,10 @@ hr {
 <div class="bgimg-1">
   <div class="caption">
      <center>
-      THE WIRELESS EARBUDS THAT ARE <br>
-      BREAKING THE INTERNET <br>
+      <B>
+      BROWSE THE BEAST DEALS IN THE INTERNET
+      IN ONE SINGLE PLACE
+      </B>
     </div>
     </center>
     
@@ -76,25 +103,26 @@ hr {
 
 
 <body>
-<center>
-<br><br>
 
-<font size="+9">$50,000+</font>
-<br>
+<div class="row">
+  <div class="column left" style="background-color:white; TEXT-ALIGN: CENTER; margin: 2%">
+    
+    <h2> PROOF THESS E NIGGAS LACKING, LEAKED</h2>
+    <B>YO WAFUJO</B>
+    <BR><BR><BR><BR>
+    <p>Some text..</p>
+    
+  </div>
+  <div class="column right" style="background-color:#bbb; TEXT-ALIGN: CENTER; margin: 2%">
+    <h2>Column 2</h2>
+    <p>Some text..</p>
+  </div>
+  
+</div>
 
-<SMALL> Generated so far in 2019</small>
-
-
-<br><br><br><br>
-
-<font size="+9">150,000+</font><br>
-
-<SMALL> Leads driven by us</small>
 
 
 
-
-</center>
 </body>
 
 
