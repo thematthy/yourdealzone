@@ -100,7 +100,7 @@ body {
 /* Left column */
 .leftcolumn {   
   float: left;
-  width: 75%;
+  width: 45%;
 }
 /* Right column */
 .rightcolumn {
@@ -108,6 +108,13 @@ body {
   width: 25%;
   padding-left: 20px;
 }
+
+.spacecolumn {
+  float: left;
+  width: 15%;
+  padding-left: 20px;
+}
+
 /* Fake image */
 .fakeimg {
   background-color: #aaa;
@@ -129,6 +136,7 @@ body {
 /* Responsive layout - when the screen is less than 800px wide, make the two columns stack on top of each other instead of next to each other */
 @media screen and (max-width: 800px) {
   .leftcolumn, .rightcolumn {   
+    #content-mobile {display: none;}
     width: 100%;
     padding: 0;
   }
@@ -140,6 +148,9 @@ body {
 
 
 <div class="row">
+  <div id=”content-desktop” class="spacecolumn">
+&nbsp fffuckk youuu
+ </div>
   <div class="leftcolumn">
     <div class="card">
       <img src="https://cdn.shopify.com/s/files/1/0065/5759/7796/files/IMG_1684small.png?147"  style="width: 100%;">
